@@ -23,6 +23,7 @@ public class SampleLoginTest {
 		driver.wait(2000);
 		
 		driver.findElement(By.name("login-button")).click();
+		driver.wait(2000);
 		driver.close();
 		
 
